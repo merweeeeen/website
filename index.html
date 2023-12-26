@@ -1,99 +1,189 @@
 <!DOCTYPE html>
 <title> </title>
 <body>
-  <div class="topnav">
-    <a class="active" href="#about">About Me</a>
-    <a href="#work">Experience</a>
-    <a href="#project">Projects</a>
-    <a href="#hobby">Hobbies</a>
-  </div>
-
-  <div style="padding-left: 16px" id="#about">
-    <h2>Hello !</h2>
-    <p>
-      I am Melvin, an aspiring Software Developer from Singapore Management
-      University.
-    </p>
-    <p>
-      I am currently Year 3 majoring in Information Systems (Digitalisation &amp
-      Cloud Solutions Track)
-    </p>
-  </div>
-
-  <div style="padding-left: 16px" id="#work">
-    <h2>Work Experience</h2>
-    <div>
-      <h3>Software Engineer Intern</h3>
-      <h4>May 2023 - Nov 2023</h4>
-      <ul>
-        <li>
-          Worked on a project to develop a web application for a client to
-          manage their business processes.
-        </li>
-        <li>
-          Developed the front-end using ReactJS and the back-end using NodeJS.
-        </li>
-        <li>Used MongoDB as the database to store the data.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div style="padding-left: 16px" id="#project">
-    <h2>Projects</h2>
-    <div>
-      <h3>FreeBee</h3>
-      <p class="subheader">GitHub Repo:</p>
-      <p class="subheader">Website:</p>
-      <p></p>
+  <div class="container">
+    <div
+      style="padding-left: 16px; display: flex"
+      id="about"
+      class="slide section"
+      data-label="About Me"
+    >
+      <img
+        style="
+          display: flex;
+          width: 50vw;
+          height: 80vh;
+          margin: 10vh 0vw 5vh 5vw;
+          border-radius: 100%;
+        "
+        src="assets/me.jpg"
+      />
+      <div style="display: block; padding: 30vh 10vw">
+        <h2>Hello! I am Melvin</h2>
+        <p>An aspiring Software Developer</p>
+        <p style="padding-bottom: 5vh">
+          I am currently a Year 3 Singapore Management University Student
+          majoring in Information Systems (Digitalisation &amp Cloud Solutions
+          Track)
+        </p>
+        <button class="btn btn-primary" style="width: 10vw">
+          Connect With Me!
+        </button>
+        <!-- Add click event -->
+      </div>
     </div>
 
-    <div>
-      <h3>Mortal Portal</h3>
-      <p class="subheader">GitHub Repo:</p>
-      <p class="subheader">Website:</p>
-      <p></p>
-    </div>
-  </div>
+    <div
+      style="padding: 1.5vh 3vw 0 3vw"
+      id="work"
+      class="slide section"
+      data-label="Work Experience"
+    >
+      <h1>Work Experience</h1>
+      <!-- <div id="job1" class="job">
+        <h2>Software Engineering Intern @ Accenture</h2>
+      </div> -->
 
-  <div style="padding-left: 16px" id="#hobby">
-    <h2>Hobbies</h2>
+      <!-- <div id="job1Desc" class="popup"> -->
+      <table style="margin: auto; padding: 0; margin: 0">
+        <tr col="2">
+          <td>
+            <div class="popup-content">
+              <h2>Software Engineering Intern @ Accenture</h2>
+              <h3>May 2023 - Nov 2023</h3>
+              <h4>Summary</h4>
+              <h5>
+                Throughout my internship, I actively engaged in the complete
+                lifecycle of applications, spanning analysis, design, coding,
+                and rigorous testing. Despite limitations in accessing sensitive
+                data, I spearheaded the creation of vital Proof-of-Concepts
+                (POCs) for our imminent applications, showcasing their potential
+                and functionality.
+                <br />
+                <br />
+                In parallel, I developed internal tools pivotal for our team's
+                efficiency. These tools empowered us to validate request signing
+                authorizations seamlessly and facilitated the automated
+                validation and integration of data from Excel into AWS.
+                Moreover, I played a crucial role in coordinating with consumer
+                agencies, contributing substantively to the developmental phase
+                of upcoming applications.
+                <br />
+                <br />
+                This experience was a revelation. It exposed me to the effective
+                implementation of Agile methodologies in our daily operations,
+                profoundly influencing our workflows and optimizing our
+                activities. As my inaugural foray into the world of Tech
+                internships, it provided me with invaluable insights into the
+                culture and operational dynamics of a Tech team. Understanding
+                how the team synchronizes its daily activities has been a
+                cornerstone of my learning curve in this dynamic field.
+              </h5>
+              <h4>Language Used</h4>
+              <ul>
+                <li>Javascript</li>
+                <li>Vue</li>
+                <li>Python</li>
+              </ul>
+              <h4>Tools Used</h4>
+              <ul>
+                <li>AWS (primarily StepFunctions, Lambda and DynamoDB)</li>
+                <li>Nuxt.js</li>
+                <li>Excel</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+          </td>
+          <td>
+            <div class="popup-content">
+              <h2>Wealth Management Intern @ OCBC</h2>
+              <h3>Oct 2018 - Feb 2019</h3>
+              <h4>Summary</h4>
+              <h5>
+                During my tenure at OCBC, I thrived in the Wealth Management
+                Department, specifically within the Treasury and Investment
+                Team. It was an enlightening experience delving into the realm
+                of investment products, offering me invaluable insights.
+                <br />
+                <br />
+                My primary responsibilities involved supporting my supervisor in
+                daily operations, collaborating closely with the sales
+                department to streamline product details and facilitating
+                customer redemption of investment reward vouchers. Additionally,
+                I fostered seamless communication between the sales team and
+                clients, ensuring smooth transactional processes.
+                <br />
+                <br />
+                Despite my background in Banking &amp Finance, technology wasn't
+                my forte. However, I was entrusted by my supervisors to address
+                an old VBA code issue alongside a colleague. After rigorous
+                research and perseverance, we successfully resolved the problem.
+                This initial triumph spurred us to transform the code from a
+                mere data-pulling tool into a user-friendly UI within Excel,
+                greatly impressing our superiors.
+                <br />
+                <br />
+                This pivotal experience ignited a passion for development within
+                me, prompting my decision to enroll in SMU's Information Systems
+                course, which I have no regrets enrolling in.
+              </h5>
+              <h4>Language Used</h4>
+              <ul>
+                <li>VBA</li>
+              </ul>
+              <h4>Tools Used</h4>
+              <ul>
+                <li>Excel</li>
+                <li>Outlook Automation</li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- </div> -->
+
+    <div
+      style="padding: 1.5vh 3vw 0 3vw"
+      id="project"
+      class="slide section"
+      data-label="Projects"
+    >
+      <h2>Projects</h2>
+      <div>
+        <h3>FreeBee</h3>
+        <p class="subheader">
+          GitHub Repo:
+          <span onclick="freebee()" style="cursor: pointer; color: blue"
+            >FreeBee Repo</span
+          >
+        </p>
+        <p class="subheader">Website:</p>
+        <p></p>
+      </div>
+
+      <div>
+        <h3>Mortal Portal</h3>
+        <p class="subheader">GitHub Repo:</p>
+        <!-- <p class="subheader">Website:</p> -->
+        <p></p>
+      </div>
+    </div>
+
+    <div
+      style="padding: 1.5vh 3vw 0 3vw"
+      id="hobby"
+      class="slide section"
+      data-label="Hobbies"
+    >
+      <h2>Hobbies</h2>
+    </div>
   </div>
 </body>
 
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fcfaff;
-  }
+<link href="style.css" rel="stylesheet" />
 
-  .topnav {
-    overflow: hidden;
-    background-color: #f2f2f2;
-  }
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
 
-  .topnav a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  .topnav a:hover {
-    background-color: #eee5ff;
-    color: black;
-  }
-
-  .topnav a.active {
-    background-color: #80bbff; /* 212 100 75 ; */
-    color: white;
-  }
-
-  .subheader {
-    font-size: small;
-  }
-</style>
-
-<script></script>
+<script type="text/javascript" src="main.js"></script>
