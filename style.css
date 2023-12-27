@@ -120,10 +120,12 @@ html {
 .btn:hover {
   background-color: #000000;
   color: #f2f2f2;
+  cursor: pointer;
 }
 
 .link {
-  cursor: pointer; color: blue
+  cursor: pointer;
+  color: blue;
 }
 
 .link:hover {
