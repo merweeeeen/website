@@ -62,3 +62,13 @@ function MPrepo() {
 function linkedin() {
   window.location.href = "https://www.linkedin.com/in/melvin-ng-b14a36164/";
 }
+
+function popup(job) {
+  const popup = document.getElementById(job);
+  popup.style.display = popup.style.display === "none" ? "flex" : "none";
+}
+
+function closePopup(job) {
+  const popup = document.getElementById(job);
+  popup.style.display = "none";
+}

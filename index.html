@@ -26,7 +26,11 @@
           majoring in Information Systems (Digitalisation &amp Cloud Solutions
           Track)
         </p>
-        <button class="btn btn-primary" style="width: 10vw" onclick="linkedin()">
+        <button
+          class="btn btn-primary"
+          style="width: 10vw"
+          onclick="linkedin()"
+        >
           Connect With Me!
         </button>
         <!-- Add click event -->
@@ -44,102 +48,116 @@
         <h2>Software Engineering Intern @ Accenture</h2>
       </div> -->
 
-      <!-- <div id="job1Desc" class="popup"> -->
-      <table style="margin: auto; padding: 0; margin: 0">
-        <tr col="2">
-          <td>
-            <div class="popup-content">
-              <h2>Software Engineering Intern @ Accenture</h2>
-              <h3>May 2023 - Nov 2023</h3>
-              <h4>Summary</h4>
-              <h5>
-                Throughout my internship, I actively engaged in the complete
-                lifecycle of applications, spanning analysis, design, coding,
-                and rigorous testing. Despite limitations in accessing sensitive
-                data, I spearheaded the creation of vital Proof-of-Concepts
-                (POCs) for our imminent applications, showcasing their potential
-                and functionality.
-                <br />
-                <br />
-                In parallel, I developed internal tools pivotal for our team's
-                efficiency. These tools empowered us to validate request signing
-                authorizations seamlessly and facilitated the automated
-                validation and integration of data from Excel into AWS.
-                Moreover, I played a crucial role in coordinating with consumer
-                agencies, contributing substantively to the developmental phase
-                of upcoming applications.
-                <br />
-                <br />
-                This experience was a revelation. It exposed me to the effective
-                implementation of Agile methodologies in our daily operations,
-                profoundly influencing our workflows and optimizing our
-                activities. As my inaugural foray into the world of Tech
-                internships, it provided me with invaluable insights into the
-                culture and operational dynamics of a Tech team. Understanding
-                how the team synchronizes its daily activities has been a
-                cornerstone of my learning curve in this dynamic field.
-              </h5>
-              <h4>Language Used</h4>
-              <ul>
-                <li>Javascript</li>
-                <li>Vue</li>
-                <li>Python</li>
-              </ul>
-              <h4>Tools Used</h4>
-              <ul>
-                <li>AWS (primarily StepFunctions, Lambda and DynamoDB)</li>
-                <li>Nuxt.js</li>
-                <li>Excel</li>
-                <li>Node.js</li>
-              </ul>
+      <div id="job1Desc" class="popup" onclick="popup('job1')">
+        <h2>Software Engineering Intern @ Accenture</h2>
+        <h3>May 2023 - Nov 2023</h3>
+      </div>
+
+      <div id="job2Desc" class="popup" onclick="popup('job2')">
+        <h2>Wealth Management Intern @ OCBC</h2>
+        <h3>Oct 2018 - Feb 2019</h3>
+      </div>
+
+      <div class="popup-container" id="job1">
+        <div class="popup-content">
+          <div class="flexbox">
+            <h2>Software Engineering Intern @ Accenture</h2>
+            <div class="icon-container">
+              <i class="fa-solid fa-x icon" onclick="closePopup('job1')"></i>
             </div>
-          </td>
-          <td>
-            <div class="popup-content">
-              <h2>Wealth Management Intern @ OCBC</h2>
-              <h3>Oct 2018 - Feb 2019</h3>
-              <h4>Summary</h4>
-              <h5>
-                During my tenure at OCBC, I thrived in the Wealth Management
-                Department, specifically within the Treasury and Investment
-                Team. It was an enlightening experience delving into the realm
-                of investment products, offering me invaluable insights.
-                <br />
-                <br />
-                My primary responsibilities involved supporting my supervisor in
-                daily operations, collaborating closely with the sales
-                department to streamline product details and facilitating
-                customer redemption of investment reward vouchers. Additionally,
-                I fostered seamless communication between the sales team and
-                clients, ensuring smooth transactional processes.
-                <br />
-                <br />
-                Despite my background in Banking &amp Finance, technology wasn't
-                my forte. However, I was entrusted by my supervisors to address
-                an old VBA code issue alongside a colleague. After rigorous
-                research and perseverance, we successfully resolved the problem.
-                This initial triumph spurred us to transform the code from a
-                mere data-pulling tool into a user-friendly UI within Excel,
-                greatly impressing our superiors.
-                <br />
-                <br />
-                This pivotal experience ignited a passion for development within
-                me, prompting my decision to enroll in SMU's Information Systems
-                course, which I have no regrets enrolling in.
-              </h5>
-              <h4>Language Used</h4>
-              <ul>
-                <li>VBA</li>
-              </ul>
-              <h4>Tools Used</h4>
-              <ul>
-                <li>Excel</li>
-                <li>Outlook Automation</li>
-              </ul>
+          </div>
+
+          <h3>May 2023 - Nov 2023</h3>
+          <h4>Summary</h4>
+          <h5>
+            Throughout my internship, I actively engaged in the complete
+            lifecycle of applications, spanning analysis, design, coding, and
+            rigorous testing. Despite limitations in accessing sensitive data, I
+            spearheaded the creation of vital Proof-of-Concepts (POCs) for our
+            imminent applications, showcasing their potential and functionality.
+            <br />
+            <br />
+            In parallel, I developed internal tools pivotal for our team's
+            efficiency. These tools empowered us to validate request signing
+            authorizations seamlessly and facilitated the automated validation
+            and integration of data from Excel into AWS. Moreover, I played a
+            crucial role in coordinating with consumer agencies, contributing
+            substantively to the developmental phase of upcoming applications.
+            <br />
+            <br />
+            This experience was a revelation. It exposed me to the effective
+            implementation of Agile methodologies in our daily operations,
+            profoundly influencing our workflows and optimizing our activities.
+            As my inaugural foray into the world of Tech internships, it
+            provided me with invaluable insights into the culture and
+            operational dynamics of a Tech team. Understanding how the team
+            synchronizes its daily activities has been a cornerstone of my
+            learning curve in this dynamic field.
+          </h5>
+          <h4>Language Used</h4>
+          <ul>
+            <li>Javascript</li>
+            <li>Vue</li>
+            <li>Python</li>
+          </ul>
+          <h4>Tools Used</h4>
+          <ul>
+            <li>AWS (primarily StepFunctions, Lambda and DynamoDB)</li>
+            <li>Nuxt.js</li>
+            <li>Excel</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+      </div>
+      <div class="popup-container" id="job2">
+        <div class="popup-content">
+          <div class="flexbox">
+            <h2>Wealth Management Intern @ OCBC</h2>
+            <div class="icon-container">
+              <i class="fa-solid fa-x icon" onclick="closePopup('job2')"></i>
             </div>
-          </td>
-        </tr>
-      </table>
+          </div>
+          <h3>Oct 2018 - Feb 2019</h3>
+          <h4>Summary</h4>
+          <h5>
+            During my tenure at OCBC, I thrived in the Wealth Management
+            Department, specifically within the Treasury and Investment Team. It
+            was an enlightening experience delving into the realm of investment
+            products, offering me invaluable insights.
+            <br />
+            <br />
+            My primary responsibilities involved supporting my supervisor in
+            daily operations, collaborating closely with the sales department to
+            streamline product details and facilitating customer redemption of
+            investment reward vouchers. Additionally, I fostered seamless
+            communication between the sales team and clients, ensuring smooth
+            transactional processes.
+            <br />
+            <br />
+            Despite my background in Banking &amp Finance, technology wasn't my
+            forte. However, I was entrusted by my supervisors to address an old
+            VBA code issue alongside a colleague. After rigorous research and
+            perseverance, we successfully resolved the problem. This initial
+            triumph spurred us to transform the code from a mere data-pulling
+            tool into a user-friendly UI within Excel, greatly impressing our
+            superiors.
+            <br />
+            <br />
+            This pivotal experience ignited a passion for development within me,
+            prompting my decision to enroll in SMU's Information Systems course,
+            which I have no regrets enrolling in.
+          </h5>
+          <h4>Language Used</h4>
+          <ul>
+            <li>VBA</li>
+          </ul>
+          <h4>Tools Used</h4>
+          <ul>
+            <li>Excel</li>
+            <li>Outlook Automation</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!-- </div> -->
@@ -155,9 +173,7 @@
         <h3>FreeBee</h3>
         <p class="subheader">
           GitHub Repo:
-          <span onclick="freebee()" class="link"
-            >FreeBee Repo</span
-          >
+          <span onclick="freebee()" class="link">FreeBee Repo</span>
         </p>
         <p class="subheader">Website: To Be Deployed</p>
         <p></p>
@@ -167,9 +183,7 @@
         <h3>Mortal Portal</h3>
         <p class="subheader">
           GitHub Repo:
-          <span onclick="MPrepo()" class="link"
-            >MortalPortal Repo</span
-          >
+          <span onclick="MPrepo()" class="link">MortalPortal Repo</span>
         </p>
         <!-- <p class="subheader">Website:</p> -->
         <p></p>
@@ -184,7 +198,7 @@
     >
       <h2>Hobbies</h2>
       <h3>Sports</h3>
-      <div style="padding-bottom: 2vh;">
+      <div style="padding-bottom: 2vh">
         Ever since young, I love to play sports of any kind. In Primary School,
         I was in my school's Volleyball Club and played in inter-zone
         competitions. I did not have any opportunity to play the sport during my
@@ -209,6 +223,10 @@
 
 <link href="style.css" rel="stylesheet" />
 
+<script
+  src="https://kit.fontawesome.com/45541d42c9.js"
+  crossorigin="anonymous"
+></script>
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
