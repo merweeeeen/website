@@ -53,6 +53,7 @@ button {
   border: 1px solid #000000;
   font-style: oblique;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .header-social {
