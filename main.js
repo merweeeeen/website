@@ -65,7 +65,7 @@ function linkedin() {
 
 function popup(job) {
   const popup = document.getElementById(job);
-  popup.style.display = popup.style.display === "none" ? "flex" : "none";
+  popup.style.display = "flex";
 }
 
 function closePopup(job) {
