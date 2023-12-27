@@ -26,7 +26,7 @@
           majoring in Information Systems (Digitalisation &amp Cloud Solutions
           Track)
         </p>
-        <button class="btn btn-primary" style="width: 10vw">
+        <button class="btn btn-primary" style="width: 10vw" onclick="linkedin()">
           Connect With Me!
         </button>
         <!-- Add click event -->
@@ -155,17 +155,22 @@
         <h3>FreeBee</h3>
         <p class="subheader">
           GitHub Repo:
-          <span onclick="freebee()" style="cursor: pointer; color: blue"
+          <span onclick="freebee()" class="link"
             >FreeBee Repo</span
           >
         </p>
-        <p class="subheader">Website:</p>
+        <p class="subheader">Website: To Be Deployed</p>
         <p></p>
       </div>
 
       <div>
         <h3>Mortal Portal</h3>
-        <p class="subheader">GitHub Repo:</p>
+        <p class="subheader">
+          GitHub Repo:
+          <span onclick="MPrepo()" class="link"
+            >MortalPortal Repo</span
+          >
+        </p>
         <!-- <p class="subheader">Website:</p> -->
         <p></p>
       </div>
@@ -178,6 +183,26 @@
       data-label="Hobbies"
     >
       <h2>Hobbies</h2>
+      <h3>Sports</h3>
+      <div style="padding-bottom: 2vh;">
+        Ever since young, I love to play sports of any kind. In Primary School,
+        I was in my school's Volleyball Club and played in inter-zone
+        competitions. I did not have any opportunity to play the sport during my
+        secondary school days so I had to forgo the sport, only to play it again
+        during University for my inter-faculty games.
+        <br />
+        <br />
+        During my University days, I was in the school's Tchoukball Club and
+        also played in inter-school competitions.
+        <br />
+        <br />
+        I also love cycling! I fell in love with this hobby when I was young as
+        I used it to transport myself around. When I was in Polytechnic, I got
+        my first road bike and I fell in love this hobby even more.
+      </div>
+      <img src="./assets/volleyball.jpg" width="400" height="330" />
+      <img src="./assets/tchoukball.jpg" width="500" height="330" />
+      <img src="./assets/bicycle.jpg" width="300" height="330" />
     </div>
   </div>
 </body>
@@ -185,5 +210,5 @@
 <link href="style.css" rel="stylesheet" />
 
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="main.js"></script>

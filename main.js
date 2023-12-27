@@ -54,3 +54,11 @@ activateNavigation();
 function freebee() {
   window.location.href = "https://github.com/allynee/FreeBee";
 }
+
+function MPrepo() {
+  window.location.href = "https://github.com/merweeeeen/MortalPortal/tree/main";
+}
+
+function linkedin() {
+  window.location.href = "https://www.linkedin.com/in/melvin-ng-b14a36164/";
+}
